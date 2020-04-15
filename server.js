@@ -125,6 +125,6 @@ app.get('/artist-top-tracks', function (request, response) {
 
 // Listen for requests to our app
 // We make these requests from client.js
-var listener = app.listen(process.env.PORT, function () {
+var listener = app.listen(8888, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
