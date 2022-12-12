@@ -10,7 +10,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "spotify-web-api-node": "^2.3.6"
   },
   "engines": {
